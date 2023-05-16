@@ -1,8 +1,25 @@
-# strings practice 5/16/23
+# Ask user for name
+name = input("What is your name?: ")
+# Ask user for age
+age = input("How old are you?: ")
 
-hello = 'hello world!'
+# Ask user for city
+city = input("What city do you live in?: ")
 
-print(hello)
+# Ask user what they enjoy doing
+hobby = input("What is your favorite hobby?: ")
+
+print(name)
+print(age)
+print(city)
+print(hobby)
+
+# Create the output text 
+
+
+# Print the output to the screen
+
+
 
 
 
