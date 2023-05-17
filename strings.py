@@ -15,10 +15,12 @@ print(city)
 print(hobby)
 
 # Create the output text 
-
+string = "Your name is {} and you are {} years old. You live in {} and you love {}"
+output = string.format(name, age, city, hobby)
 
 # Print the output to the screen
 
+print(output)
 
 
 
