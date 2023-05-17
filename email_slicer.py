@@ -16,5 +16,5 @@ output = 'Your username is {} and your domain is {}'.format(user,domain)
 
 # display the output message
 
-output
+print(output)
  
