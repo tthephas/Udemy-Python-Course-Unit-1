@@ -4,7 +4,6 @@
 
 known_users = ['Josh', 'Lesley', 'Ryan', 'Mya', 'Shari', 'Craig', 'Steve', 'Jackie']
 
-print(len(known_users))
 
 while True:
     print('Hi! My name is Travis')
@@ -13,10 +12,18 @@ while True:
 
     if name in known_users:
         print('Hello, {}!'.format(name))
-        remove = input('Would you like to be removed from the system (y/n)?: ').lower()
+        remove = input('Would you like to be removed from the system (y/n)?: ').strip().lower()
         
         if remove == 'y':
             known_users.remove(name)
+        elif remove == 'n':
+            print('No problem. I didnt want you to leave anyway.')
 
     else:
-        print('{} NOT recognized. Sorry!')
+        print('{} NOT recognized. Sorry!'.format(name))
+        add_me = input('Would you like to be added to the system (y/n)?: ').strip().lower()
+
+        if add_me == 'y':
+            known_users.append(name)
+        elif add_me == 'n':
+            print('No worries, see you around town.')
