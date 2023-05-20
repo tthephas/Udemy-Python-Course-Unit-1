@@ -13,5 +13,15 @@ def print_board():
     print(row2)
     print(row3)
     print()
-    
-print_board()
+
+
+while True:
+    print_board()
+    choice = int(input('Enter your move (1-9): ').strip())
+    if board[choice -1] == ' ':
+        board[choice -1] = 'X'
+    else:
+        print()
+        print('That space is taken. Try again.')
+
+    board[choice -1] = 'X'
