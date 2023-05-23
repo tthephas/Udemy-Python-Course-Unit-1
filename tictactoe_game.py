@@ -54,7 +54,7 @@ while True:
     if is_victory('X'):
         print('X wins!!')
         break
-    elif is_draw:
+    elif is_draw():
         print('its a draw!')
         break
      
@@ -63,7 +63,7 @@ while True:
         print_board
         print('O wins!!')
         break
-    elif is_draw:
+    elif is_draw():
         print('its a draw!')
         break
      

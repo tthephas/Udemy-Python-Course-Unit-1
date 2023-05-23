@@ -6,3 +6,5 @@ Health.py is a file for a small project which would hold a player's health in a 
 
 Strings.py has some ways you can manipulate and use input and output for strings
 
+Used loops and functions to create a working Tictactoe game
+
